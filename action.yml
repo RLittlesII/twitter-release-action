@@ -1,9 +1,9 @@
-name: 'Node 12 Template Action'
-description: 'Get started with Node actions'
-author: 'GitHub'
+name: 'Twitter Release Action'
+description: 'Notifies Twitter of a version Release'
+author: 'RLittlesII'
 inputs:
-  myInput:
-    description: 'Input to use'
+  token:
+    description: 'Twitter token'
     default: 'world'
 runs:
   using: 'node12'
